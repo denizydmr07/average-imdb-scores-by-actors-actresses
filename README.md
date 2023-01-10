@@ -22,7 +22,7 @@
     
   - From the title.basics,
   
-    1. I deleted all the rows which ['titleType'](https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/titles#titletype) column is NOT 'movie', namely, I excluded all the titleTypes titshort, tvSeries, tvShort, tvMovie, tvEpisode, tvMiniSeries, tvSpecial, video, videoGame, and tvPilot.
+    1. I deleted all the rows which ['titleType'](https://developer.imdb.com/documentation/bulk-data-documentation/data-dictionary/titles#titletype) column is NOT 'movie'; namely, I excluded all the titleTypes titshort, tvSeries, tvShort, tvMovie, tvEpisode, tvMiniSeries, tvSpecial, video, videoGame, and tvPilot.
 
 * Notes 
 
