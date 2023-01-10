@@ -12,8 +12,8 @@
 
   - From the name.basics,
   
-    1. I deleted all the rows which 'primaryProfession' column does NOT include keywords actor or actress (primary professions soundtrack, writer, composer, producer, director etc. are excluded for the table).
-    2. I deleted all the people whose birthYear is null, which indicates that there is no sufficent data about them.
+    1. I deleted all the rows which 'primaryProfession' column does NOT include keywords actor or actress (primary professions soundtrack, writer, composer, producer, director etc. are excluded in the table).
+    2. I deleted all the people whose birthYear is null, which indicates that there is no sufficient data about them.
     
   - From the title.principals,
   
