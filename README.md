@@ -1,6 +1,6 @@
 # average-imdb-scores-by-actors-actresses
 
-* I created a table with 112.332 actors/actresses and average [IMDB](https://www.imdb.com/) ratings of movies they had a role in it by using some of the [datasets](https://datasets.imdbws.com/) that [IMDB](https://www.imdb.com/) shares.
+* I created a table with 112.332 actors/actresses and average [IMDB](https://www.imdb.com/) ratings of movies they had a role in it by using some of the [datasets](https://datasets.imdbws.com/) that [IMDB](https://www.imdb.com/) shared at January 5, 2023.
 
 * I used:
   1. name.basics.tsv.gz
@@ -26,7 +26,8 @@
 
 * Notes 
 
-  1. I did not take into consideration column 'numVotes' from title.ratings. This situation resulted in unexpected standard deviation of ratings, e.g. title [Romeo + Julia](https://www.imdb.com/title/tt4130224/?ref_=nm_ov_bio_lk) has IMDB point 10 with just 14 votes! Therefore, actress [Barbara Kratz](https://www.imdb.com/name/nm6853501/) has an average IMDB rating 10 since only title she had a role in is [Romeo + Julia](https://www.imdb.com/title/tt4130224/?ref_=nm_ov_bio_lk) in IMDB datasets.
+  1. I did not take into consideration column 'numVotes' from title.ratings. This situation resulted in unexpected standard deviation of ratings, e.g. title [Romeo + Julia](https://www.imdb.com/title/tt4130224/?ref_=nm_ov_bio_lk) has IMDB point 10 with just 14 votes! Therefore, actress [Barbara Kratz](https://www.imdb.com/name/nm6853501/) has an average IMDB rating of 10 since only title she had a role in is [Romeo + Julia](https://www.imdb.com/title/tt4130224/?ref_=nm_ov_bio_lk) in IMDB datasets.
   2. avg_imdb.sql is the INSERT INTO queries of the table avg_imdb.
+  
 
   
